@@ -1,0 +1,212 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Livvic font*/
+p {
+    font-family: "Livvic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Limelight font*/
+h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FEF9E1;
+}
+
+header{
+    background-color: #A31D1D;
+}
+
+/* Header*/
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons in header*/
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a {
+    padding: 10px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Home button in header*/
+.home-text {
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+/*Other buttons in header*/
+.header-text {
+    font-size: 20px;
+    align-items: center;
+    padding-right: 100px;
+    gap: 20px;
+
+}
+
+/* Header hover for buttons*/
+.header-text li a:hover {
+    background-color: #881a1a;
+    border-radius: 12px;
+}
+
+/* menu text */
+.menu-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    font-size: 50px;
+    color: #6D2323;
+}
+
+.food-menu {
+    height: 500px;
+}
+
+/* Drinks text*/
+.drinks-text a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    padding-right: 120px;
+    text-decoration: underline;
+    color: #6D2323;
+}
+
+footer {
+    background-color: #E5D0AC;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+footer p {
+    font-size: 35px;
+    color: #A31D1D;
+    font-weight: 400;
+}
+
+
+
+
+/* Menu php*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    color: #6D2323;
+
+    
+    font-family: "Livvic", sans-serif;
+    font-style: normal;
+}
+
+.menu img {
+    width: 250px;
+    /*padding-left: 400px;*/
+}
+
+.catogorie{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name {
+    font-size: 45px;
+    /*font-weight: bold;*/
+}
+
+.prijs,
+.button {
+    color: white;
+    background-color: #A31D1D;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+.beschrijving {
+    width: 250px;
+    font-size: 20px;
+}
+
+
+/* Drinks page*/
+.sideblock {
+    display: flex;
+    flex-direction: row;
+    background-color: #B19470;
+    height: 1000px;
+    width: 550px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sideblock2 {
+    background-color: #437766;
+    height: 1000px;
+    width: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Arrow on drinks menu*/
+.arrow a {
+    display: flex;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FEF9E1;
+}
+
+.arrow a:hover {
+    text-decoration: underline;
+}
+
+/* drink menu logo*/
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    color: #437766;
+    font-size: 25px;
+
+    width: 250px;
+    padding-left: 210px;
+    padding-top: 100px;
+}
